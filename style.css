@@ -1,0 +1,57 @@
+body{
+    background-image: url('https://images.pexels.com/photos/2707756/pexels-photo-2707756.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    font-size: 4.6rem;
+    color: solid black;
+}
+.choices{
+    margin-bottom: 30px;
+}
+.choices button{
+    font-size: 4rem;
+    border-radius: 100px;
+    margin: 30px;
+    cursor: pointer;
+    background-color: chartreuse;
+    transition: 0.5 ease;
+}
+.choices button:hover{
+    background-color: rgba(0, 255, 149, 0.788);
+}
+#playerDisplay{
+    font-size: 2.5rem;
+}
+#computerDisplay{
+    font-size: 2.5rem;
+}
+#resultDisplay{
+    font-size: 5rem;
+    margin: 10px;
+}
+.scoreDisplay{
+    font-size: 2rem;
+}
+.greenText, #playerScoreDisplay{
+    color: lime;
+}
+.redText, #computerScoreDisplay{
+    color: red;
+}
+
+
+
+
+
+
